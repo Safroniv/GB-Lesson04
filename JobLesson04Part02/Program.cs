@@ -14,7 +14,7 @@ int[] summNumbers = subs.Select(x => int.Parse(x)).ToArray();
 int summa = 0;
 for (int i = 0; i < summNumbers.Length; i++)
 {
-    summa = summa + summNumbers[i];      
+    summa = summa + summNumbers[i];
 }
 //Выводим значение:
-Console.WriteLine(summa);  
+Console.WriteLine(summa);
