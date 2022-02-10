@@ -47,17 +47,14 @@ static string NameMonth(SeasonsYear seasons)
     switch (seasons)
     {
         case SeasonsYear.Spring:
-            {
-                return "Весна";
-            }
+            return "Весна";
+            
         case SeasonsYear.Summer:
-            {
-                return "Лето";
-            }
+            return "Лето";
+            
         case SeasonsYear.Autumn:
-            {
-                return "Лето";
-            }
+            return "Осень";
+            
         default:
             return "Зима";
     }
