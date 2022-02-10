@@ -46,10 +46,6 @@ static string NameMonth(SeasonsYear seasons)
 {
     switch (seasons)
     {
-        case SeasonsYear.Winter:
-            {
-                return "Зима";
-            }
         case SeasonsYear.Spring:
             {
                 return "Весна";
@@ -63,7 +59,7 @@ static string NameMonth(SeasonsYear seasons)
                 return "Лето";
             }
         default:
-            return "Ошибка: введите число от 1 до 12";
+            return "Зима";
     }
 }
 enum SeasonsYear
