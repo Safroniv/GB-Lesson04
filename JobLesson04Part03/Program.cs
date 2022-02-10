@@ -37,13 +37,12 @@ static SeasonsYear SeasonIndentification(int numMonth)
         case 10:
         case 11:
             return SeasonsYear.Autumn;
-            break;
         default:
             return SeasonsYear.Winter;
     }
-    
+
 }
-   static string NameMonth(SeasonsYear seasons)
+static string NameMonth(SeasonsYear seasons)
 {
     switch (seasons)
     {
